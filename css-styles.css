@@ -336,34 +336,57 @@ textarea {
 
 /* Footer Styles */
 .site-footer {
-  background-color: #333;
-  color: white;
+  background-color: #000; 
+  color: #fff; 
   padding: 3rem 0;
 }
 
 .site-footer .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+}
+
+.site-footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.site-footer p {
+  margin-bottom: 1.5rem;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.site-footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.site-footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer ul li a:hover {
+  color: var(--secondary-color); 
 }
 
 .social-media {
-  list-style: none;
   display: flex;
-}
-
-.social-media li {
-  margin-left: 1rem;
+  gap: 1rem;
 }
 
 .social-media a {
-  color: white;
+  color: #fff;
   font-size: 1.5rem;
-  transition: var(--transition);
 }
 
 .social-media a:hover {
-  color: var(--secondary-color);
+  color: var(--secondary-color); 
 }
 
 /* Notification Styles */
