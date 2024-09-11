@@ -436,6 +436,6 @@ textarea {
 }
 
 .recurso-logo img {
-    width: 60px; /* Ajusta el tamaño del logo según sea necesario */
+    max-width: 100px; /* Ajusta este valor según el tamaño deseado */
     height: auto;
 }
