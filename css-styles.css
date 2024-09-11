@@ -336,8 +336,8 @@ textarea {
 
 /* Footer Styles */
 .site-footer {
-  background-color: #000; 
-  color: #fff; 
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
   padding: 3rem 0;
 }
 
@@ -347,32 +347,46 @@ textarea {
   justify-content: space-between;
 }
 
-.site-footer h5 {
+.footer-left {
+  flex: 1;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h5 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-.site-footer p {
+.footer-section p {
   margin-bottom: 1.5rem;
 }
 
-.site-footer ul {
+.footer-section ul {
   list-style: none;
   padding: 0;
 }
 
-.site-footer ul li {
+.footer-section ul li {
   margin-bottom: 0.5rem;
 }
 
-.site-footer ul li a {
+.footer-section ul li a {
   color: #fff;
   text-decoration: none;
 }
 
-.site-footer ul li a:hover {
-  color: var(--secondary-color); 
+.footer-section ul li a:hover {
+  color: var(--secondary-color); /* Cambia el color al pasar el cursor */
 }
 
 .social-media {
@@ -386,7 +400,7 @@ textarea {
 }
 
 .social-media a:hover {
-  color: var(--secondary-color); 
+  color: var(--secondary-color); /* Cambia el color al pasar el cursor */
 }
 
 /* Notification Styles */
