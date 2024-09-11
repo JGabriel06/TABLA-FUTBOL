@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif; /* Tipografía más amigable */
+  font-family: 'Quicksand', sans-serif; 
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -52,7 +52,7 @@ body {
 }
 
 .logo img {
-  width: 300px;
+  width: 180px;
   height: auto;
 }
 
@@ -232,7 +232,7 @@ h2 {
 }
 
 .recurso-logo img {
-  max-width: 50px; /* Ajusta este valor según el tamaño deseado */
+  max-width: 50px; 
   height: auto;
 }
 
